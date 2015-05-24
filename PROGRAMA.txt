@@ -7,29 +7,38 @@ printf ("\n Digite um numero entre 1 e 10: ");
 scanf ("%d", &num);
 switch (num)
 {
-case 1005:
-printf ("\n\nO numero e igual a 5.\n");
-break;
-case 10:
-printf ("\n\nO numero e igual a 10.\n");
-break;
-case 6:
-printf ("\n\nO numero e igual a 6.\n");
-break;
-case 9:
-printf ("\n\nO numero e igual a 9.\n");
-break;
-case 20:
-printf ("\n\nO numero e igual a 20.\n");
-break;
-case 25:
-printf ("\n\nO numero e igual a 25.\n");
-break;
-default:
-printf ("\n\n\t O numero nao e nem 1, nem 2 e nem 3.");
-printf ("\n\t Tente novamente\n");
-printf ("\t Ou digite uma letra para loop infinito! \n");
+	case 1005:
+		printf ("\n\nO numero e igual a 5.\n");
+	break;
+	case 10:
+		printf ("\n\nO numero e igual a 10.\n");
+	break;
+	case 6:
+		printf ("\n\nO numero e igual a 6.\n");
+	break;
+	case 9:
+		printf ("\n\nO numero e igual a 9.\n");
+	break;
+	case 20:
+		printf ("\n\nO numero e igual a 20.\n");
+	break;
+	case 25:
+		printf ("\n\nO numero e igual a 25.\n");
+	break;
+	default:
+	
+	printf ("\n\n\t O numero nao e nem 1, nem 2 e nem 3.");
+	printf ("\n\t Tente novamente\n");
+	printf ("\t Ou digite uma letra para loop infinito! \n");
 }
+
+	printf("Informe dois numeros (cada um sendo 0 ou 1): ");
+	scanf("%d%d", &i, &j);
+	printf("%d AND %d eh %d\n", i,j, i && j);
+	printf("%d OR %d eh %d\n", i,j, i || j);
+	printf("NOT %d eh %d\n", i, !i);
+}
+
 }
 return 0;
 }
