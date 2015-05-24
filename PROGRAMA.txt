@@ -19,6 +19,12 @@ break;
 case 9:
 printf ("\n\nO numero e igual a 9.\n");
 break;
+case 20:
+printf ("\n\nO numero e igual a 20.\n");
+break;
+case 25:
+printf ("\n\nO numero e igual a 25.\n");
+break;
 default:
 printf ("\n\n\t O numero nao e nem 1, nem 2 e nem 3.");
 printf ("\n\t Tente novamente\n");
